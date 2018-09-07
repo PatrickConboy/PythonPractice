@@ -5,4 +5,7 @@
 
 import random
 
-print(random.randint(1,6))
+toRoll = input("Do you want to roll the die? ")
+
+if toRoll == "yes":
+    print(random.randint(1,6))
