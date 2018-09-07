@@ -5,7 +5,16 @@
 
 import random
 
-toRoll = input("Do you want to roll the die? ")
+toRoll = input("Do you want to roll the dice? ")
 
-if toRoll == "yes":
-    print(random.randint(1,6))
+die1 = 0
+die2 = 0
+if toRoll == "yes" or toRoll == "Yes" or toRoll == "YES":
+    sumDie = 0
+    die1 = random.randint(1,6)
+    die2 = random.randint(1,6)
+    sumDie = die1 + die2
+    print("You rolled a " + str(die1) + " and a " + str(die2) + ", for a total of " + str(sumDie) + ".")
+
+if toRoll == "no" or toRoll == "No" or toRoll == "NO":
+    print("Then why are you wasting my time?")
