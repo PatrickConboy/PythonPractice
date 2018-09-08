@@ -1,4 +1,7 @@
 # File: main.py
+# Written by: Patrick Conboy
+# Date: 9/6/2018
+# Just practicing some python basics.
 
 courses =  [ [("CS 328", 3.2), ("EDU 221", 4.0), ("HFA 027", 3.5)], [("EDU 225", 3.2), ("CS 321", 4.0), ("HIS 260", 3.4)] ]
 
